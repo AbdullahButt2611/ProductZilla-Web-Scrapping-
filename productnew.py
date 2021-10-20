@@ -6,6 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait as wait
 from time import sleep
+from random import randint
 
 names = []
 prices = []
@@ -13,17 +14,42 @@ solditems = []
 ratings = []
 taxes = []
 store_names = []
-topseller=[]
+toppSeller = []
 
 
+def solditemsno():
+    value = randint(5, 400)
+    return value
 
 
+def ratingsitem(solditems):
+    if solditems > 0 and solditems < 50:
+        return 1.0
+    elif solditems >= 50 and solditems < 100:
+        return 2.0
+    elif solditems >= 100 and solditems < 150:
+        return 2.5
+    elif solditems > 150 and solditems < 250:
+        return 3.3
+    elif solditems > 250 and solditems < 350:
+        return 3.8
+    elif solditems > 350 and solditems < 375:
+        return 4.2
+    elif solditems > 375 and solditems < 400:
+        return 4.75
 
+
+def checkTopseller(rating):
+    a = 4
+    if rating >= a:
+        return 1
+    else:
+        return 0
 
 
 driver = webdriver.Chrome(executable_path=r'C:\Users\qaziz\chromedriver.exe')
 driver.maximize_window()
-for pag_no in range(1, 30):
+for pag_no in range(1, 3):
     driver.get(
         "https://www.aliexpress.com/wholesale?trafficChannel=main&d=y&CatId=0&SearchText=smart+watches&ltype=wholesale&SortType=default&page={}".format(
             pag_no))
@@ -48,7 +74,9 @@ for pag_no in range(1, 30):
         # rating = mobileDetail.find_element_by_class_name("_1hEhM").text)
         name = str(mobileDetail.find_element_by_class_name("awV9E").text)
         price = str(mobileDetail.find_element_by_class_name("_12A8D").text)
-
+        solditem = solditemsno()
+        rating = ratingsitem(solditem)
+        topseller = checkTopseller(rating)
         # solditem = str(mobileDetail.find_element_by_class_name("_1YxeD").text)
 
         # tax = str(mobileDetail.find_element_by_class_name("ZCLbI").text)
@@ -56,10 +84,12 @@ for pag_no in range(1, 30):
 
         names.append(name)
         prices.append(price)
-        # solditems.append(solditem)
-        # ratings.append(rating)
-        # taxes.append(tax)
+        solditems.append(solditem)
+        ratings.append(rating)
+        toppSeller.append(topseller)
         store_names.append(store_name)
 
-data = pandas.DataFrame({"Names": names, "prices": prices, "Store name": store_names})
-data.to_csv("scrap.csv", index=False)
+data = pandas.DataFrame(
+    {"Names": names, "prices": prices, "Store name": store_names, "Sold items ": solditems, "ToppSeller": toppSeller,
+     "ratings": ratings})
+data.to_csv("checkfile.csv", index=False)
