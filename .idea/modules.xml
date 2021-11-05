@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../Python/Algorithms/.idea/Algorithms.iml" filepath="$PROJECT_DIR$/../../../../Python/Algorithms/.idea/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CS261F21PID10.iml" filepath="$PROJECT_DIR$/.idea/CS261F21PID10.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/Khadija Project/.idea/Khadija Project.iml" filepath="$USER_HOME$/Desktop/Khadija Project/.idea/Khadija Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../Python/Mid Project Testing/.idea/Mid Project Testing.iml" filepath="$PROJECT_DIR$/../../../../Python/Mid Project Testing/.idea/Mid Project Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Week 7/.idea/Week 7.iml" filepath="$PROJECT_DIR$/../../Week 7/.idea/Week 7.iml" />
     </modules>
   </component>
 </project>
