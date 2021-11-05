@@ -30,8 +30,36 @@ listDaraz=[ 'https://www.daraz.pk/smartphones/?page={}&spm=a2a0e.searchlistcateg
           'https://www.daraz.pk/bath-body/?page={}&spm=a2a0e.searchlistcategory.cate_4.1.717f6c37SVBAad',
           'https://www.daraz.pk/remote-control-toys-and-play-vehicles/?page={}&spm=a2a0e.searchlistcategory.cate_5.6.1fd784faBcJAtQ',
           'https://www.daraz.pk/health-beauty-tools/?page={}&spm=a2a0e.searchlistcategory.cate_4.2.367e29c3kXWyv0',
+          'https://www.daraz.pk/womens-make-up/?page={}&spm=a2a0e.searchlistcategory.cate_4.5.481f6337vEz4dh','https://www.daraz.pk/smartphones/?page={}&spm=a2a0e.searchlistcategory.cate_1.1.2e3c7242Kuty9m',
+          'https://www.daraz.pk/mobiles-tablets-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.1.6587c414XLrCZ9',
+          'https://www.daraz.pk/home-appliances/?page={}&spm=a2a0e.searchlistcategory.cate_3.6.5ca57acaDKnCAX',
+          'https://www.daraz.pk/computing-peripherals-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.5.7e4a7f01R8haY7',
+          'https://www.daraz.pk/bath-body/?page={}&spm=a2a0e.searchlistcategory.cate_4.1.717f6c37SVBAad',
+          'https://www.daraz.pk/remote-control-toys-and-play-vehicles/?page={}&spm=a2a0e.searchlistcategory.cate_5.6.1fd784faBcJAtQ',
+          'https://www.daraz.pk/health-beauty-tools/?page={}&spm=a2a0e.searchlistcategory.cate_4.2.367e29c3kXWyv0',
+          'https://www.daraz.pk/womens-make-up/?page={}&spm=a2a0e.searchlistcategory.cate_4.5.481f6337vEz4dh','https://www.daraz.pk/smartphones/?page={}&spm=a2a0e.searchlistcategory.cate_1.1.2e3c7242Kuty9m',
+          'https://www.daraz.pk/mobiles-tablets-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.1.6587c414XLrCZ9',
+          'https://www.daraz.pk/home-appliances/?page={}&spm=a2a0e.searchlistcategory.cate_3.6.5ca57acaDKnCAX',
+          'https://www.daraz.pk/computing-peripherals-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.5.7e4a7f01R8haY7',
+          'https://www.daraz.pk/bath-body/?page={}&spm=a2a0e.searchlistcategory.cate_4.1.717f6c37SVBAad',
+          'https://www.daraz.pk/remote-control-toys-and-play-vehicles/?page={}&spm=a2a0e.searchlistcategory.cate_5.6.1fd784faBcJAtQ',
+          'https://www.daraz.pk/health-beauty-tools/?page={}&spm=a2a0e.searchlistcategory.cate_4.2.367e29c3kXWyv0',
+          'https://www.daraz.pk/womens-make-up/?page={}&spm=a2a0e.searchlistcategory.cate_4.5.481f6337vEz4dh','https://www.daraz.pk/smartphones/?page={}&spm=a2a0e.searchlistcategory.cate_1.1.2e3c7242Kuty9m',
+          'https://www.daraz.pk/mobiles-tablets-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.1.6587c414XLrCZ9',
+          'https://www.daraz.pk/home-appliances/?page={}&spm=a2a0e.searchlistcategory.cate_3.6.5ca57acaDKnCAX',
+          'https://www.daraz.pk/computing-peripherals-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.5.7e4a7f01R8haY7',
+          'https://www.daraz.pk/bath-body/?page={}&spm=a2a0e.searchlistcategory.cate_4.1.717f6c37SVBAad',
+          'https://www.daraz.pk/remote-control-toys-and-play-vehicles/?page={}&spm=a2a0e.searchlistcategory.cate_5.6.1fd784faBcJAtQ',
+          'https://www.daraz.pk/health-beauty-tools/?page={}&spm=a2a0e.searchlistcategory.cate_4.2.367e29c3kXWyv0',
+          'https://www.daraz.pk/womens-make-up/?page={}&spm=a2a0e.searchlistcategory.cate_4.5.481f6337vEz4dh','https://www.daraz.pk/smartphones/?page={}&spm=a2a0e.searchlistcategory.cate_1.1.2e3c7242Kuty9m',
+          'https://www.daraz.pk/mobiles-tablets-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.1.6587c414XLrCZ9',
+          'https://www.daraz.pk/home-appliances/?page={}&spm=a2a0e.searchlistcategory.cate_3.6.5ca57acaDKnCAX',
+          'https://www.daraz.pk/computing-peripherals-accessories/?page={}&spm=a2a0e.searchlistcategory.cate_2.5.7e4a7f01R8haY7',
+          'https://www.daraz.pk/bath-body/?page={}&spm=a2a0e.searchlistcategory.cate_4.1.717f6c37SVBAad',
+          'https://www.daraz.pk/remote-control-toys-and-play-vehicles/?page={}&spm=a2a0e.searchlistcategory.cate_5.6.1fd784faBcJAtQ',
+          'https://www.daraz.pk/health-beauty-tools/?page={}&spm=a2a0e.searchlistcategory.cate_4.2.367e29c3kXWyv0',
           'https://www.daraz.pk/womens-make-up/?page={}&spm=a2a0e.searchlistcategory.cate_4.5.481f6337vEz4dh']
-listDaraz1=[ 'https://www.daraz.pk/smartphones/?page={}&spm=a2a0e.searchlistcategory.cate_1.1.2e3c7242Kuty9m']
+
 class productzilla:
     def __init__(self,name,price,solditems,ratings,taxes,shopname,Topseller):
         self.name=name
@@ -46,7 +74,7 @@ class productzilla:
 class MainWindow(QDialog):
     def __init__(self):
         super(MainWindow, self).__init__()
-        loadUi("tabletutorial.ui",self)
+        loadUi("userInterface.ui",self)
         # self.Sc = Sc
         self.tableWidget.setColumnWidth(0,250)
         self.tableWidget.setColumnWidth(1,100)
@@ -105,6 +133,22 @@ class MainWindow(QDialog):
                 except:
                   self.clickMethod()
             elif value == 8:
+
+                try:
+                    cs = InsertionAlgorithm()
+                    cs.InsertionSort(classObjects, v2)
+                    self.loaddata()
+                except:
+                    self.clickMethod()
+            elif value == 7:
+
+                try:
+                    cs = InsertionAlgorithm()
+                    cs.InsertionSort(classObjects, v2)
+                    self.loaddata()
+                except:
+                    self.clickMethod()
+            elif value == 6:
 
                 try:
                     cs = InsertionAlgorithm()
@@ -191,8 +235,8 @@ class MainWindow(QDialog):
         p=0
         driver = webdriver.Chrome(executable_path=r'C:\Users\qaziz\chromedriver.exe')
         driver.maximize_window()
-        for link in listDaraz1:
-            for pageno in range(1, 2):
+        for link in listDaraz:
+            for pageno in range(1, 79):
 
                 driver.get(link.format(pageno))
 
@@ -237,9 +281,10 @@ class MainWindow(QDialog):
                     store_name = store_name + "Store"
                     data = productzilla(name, price,solditem,rating,tax,store_name,topseller)
                     classObjects.append(data)
+                    mainwindow.loaddata()
 
 
-                mainwindow.loaddata()
+
 
 
 class Sorting:
@@ -467,6 +512,51 @@ class QuickAlgorithm:
                 Arr[i], Arr[j] = Arr[j], Arr[i]
         Arr[i + 1], Arr[high] = Arr[high], Arr[i + 1]
         return i + 1
+class CountingSort:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+def minVal(arr):
+
+        list1 = []
+        for i in range(0, len(arr)):
+            list1.append(arr[i].age)
+
+        minimum = min(list1)
+        return minimum
+
+
+def maxVal(arr):
+    list1 = []
+    for i in range(0, len(arr)):
+        list1.append(arr[i].age)
+
+    minimum = max(list1)
+    return minimum
+
+
+def CountingSortNumber(arr1):
+
+    minimum = minVal(arr1)
+    maximum = maxVal(arr1)
+    k = (maximum - minimum)+1
+    count = [0]*(k)
+    output = [0]*len(arr1)
+
+    for i in range(len(arr1)):
+        j =arr1[i].age
+        count[j-minimum] += 1
+
+    for i in range(1,k):
+        count[i] += count[i-1]
+
+    for i in range(len(arr1)-1,-1,-1):
+        j = arr1[i].age
+        count[j-minimum] -=1
+        output[count[j-minimum]] = arr1[i]
+
+    return output
 
 # main
 try:
